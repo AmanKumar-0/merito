@@ -4,46 +4,19 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const inlineIcons = {
-  shiprocket: (
-    <svg viewBox="0 0 48 48" className="w-7 h-7" aria-hidden>
-      <path
-        d="M10 24c0-.6.24-1.17.66-1.59l13.1-13.1a2.25 2.25 0 0 1 3.18 0l3.1 3.1a2.25 2.25 0 0 1 0 3.18L17.94 26.75a.5.5 0 0 0 .35.85H30a2 2 0 0 1 1.41.59l3.3 3.3A2 2 0 0 1 33.3 34H17.5c-.8 0-1.57-.32-2.14-.89l-4.7-4.7A2.25 2.25 0 0 1 10 24Z"
-        fill="currentColor"
-      />
-    </svg>
-  ),
-  delhivery: (
-    <svg viewBox="0 0 48 48" className="w-7 h-7" aria-hidden>
-      <path d="M8 18a2 2 0 0 1 2-2h19a2 2 0 0 1 1.6.8l7.4 9.2A2 2 0 0 1 36.4 30H10a2 2 0 0 1-2-2V18Z" fill="currentColor" />
-      <rect x="12" y="12" width="8" height="4" rx="1" fill="currentColor" />
-    </svg>
-  ),
-  myntra: (
-    <svg viewBox="0 0 48 48" className="w-7 h-7" aria-hidden>
-      <path d="M18.5 33.5 11 16.5c-.6-1.4.4-3 1.9-3h.2a2 2 0 0 1 1.8 1.2l5.9 13.7a.4.4 0 0 0 .74.02L30 14.7A2 2 0 0 1 31.8 13h.1c1.6 0 2.6 1.7 2 3.1l-7.6 16.5a2.2 2.2 0 0 1-4 0Z" fill="currentColor" />
-    </svg>
-  ),
-  nykaa: (
-    <svg viewBox="0 0 48 48" className="w-7 h-7" aria-hidden>
-      <path d="M13 32.5V17.2c0-.66.54-1.2 1.2-1.2h.6c.45 0 .86.25 1.06.65l4.04 8.22c.18.36.7.36.88 0l4.16-8.45a1.2 1.2 0 0 1 1.07-.67h.79c.66 0 1.2.54 1.2 1.2v15.25a1 1 0 0 1-1 1H25a1 1 0 0 1-1-1v-5.14c0-.34-.44-.47-.63-.2l-2.06 3.05c-.2.3-.53.48-.89.48h-2.06a1 1 0 0 1-.88-.52l-1.5-2.83c-.13-.25-.48-.25-.61 0l-.2.39v4.77a1 1 0 0 1-1 1H14a1 1 0 0 1-1-1Z" fill="currentColor" />
-    </svg>
-  ),
-};
-
 const integrations = [
-  { name: "Shopify", category: "E-commerce", logo: "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/shopify.svg" },
-  { name: "Amazon", category: "Marketplace", logo: "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/amazon.svg" },
-  { name: "Flipkart", category: "Marketplace", logo: "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/flipkart.svg" },
-  { name: "Meta", category: "Marketing", logo: "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/meta.svg" },
-  { name: "Google Ads", category: "Marketing", logo: "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/googleads.svg" },
-  { name: "Razorpay", category: "Payments", logo: "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/razorpay.svg" },
-  { name: "Delhivery", category: "Logistics", logo: "https://logo.clearbit.com/delhivery.com" },
-  { name: "Shiprocket", category: "Logistics", logo: "https://logo.clearbit.com/shiprocket.in" },
-  { name: "WooCommerce", category: "E-commerce", logo: "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/woocommerce.svg" },
-  { name: "Myntra", category: "Marketplace", logo: "https://logo.clearbit.com/myntra.com" },
-  { name: "Nykaa", category: "Marketplace", logo: "https://logo.clearbit.com/nykaa.com" },
-  { name: "Google Analytics", category: "Analytics", logo: "https://logo.clearbit.com/analytics.google.com" },
+  { name: "Shopify", category: "E-commerce", logo: "/logos/integrations/shopify.svg" },
+  { name: "Amazon", category: "Marketplace", logo: "/logos/integrations/amazon.svg" },
+  { name: "Flipkart", category: "Marketplace", logo: "/logos/integrations/flipkart.svg" },
+  { name: "Meta", category: "Marketing", logo: "/logos/integrations/meta.svg" },
+  { name: "Google Ads", category: "Marketing", logo: "/logos/integrations/google-ads.svg" },
+  { name: "Razorpay", category: "Payments", logo: "/logos/integrations/razorpay.svg" },
+  { name: "Delhivery", category: "Logistics", logo: "/logos/integrations/delhivery.png" },
+  { name: "Shiprocket", category: "Logistics", logo: "/logos/integrations/shiprocket.png" },
+  { name: "WooCommerce", category: "E-commerce", logo: "/logos/integrations/woocommerce.svg" },
+  { name: "Myntra", category: "Marketplace", logo: "/logos/integrations/myntra.png" },
+  { name: "Nykaa", category: "Marketplace", logo: "/logos/integrations/nykaa.png" },
+  { name: "Google Analytics", category: "Analytics", logo: "/logos/integrations/google-analytics.png" },
 ];
 
 const Integrations = () => {

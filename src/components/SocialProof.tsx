@@ -1,20 +1,20 @@
 import type { SyntheticEvent } from "react";
 
 const logos = [
-  { name: "boAt", src: "https://logo.clearbit.com/boat-lifestyle.com" },
-  { name: "Mamaearth", src: "https://logo.clearbit.com/mamaearth.in" },
-  { name: "Mensa Brands", src: "https://logo.clearbit.com/mensabrands.com" },
-  { name: "Lenskart", src: "https://logo.clearbit.com/lenskart.com" },
-  { name: "Wakefit", src: "https://logo.clearbit.com/wakefit.co" },
-  { name: "Sugar Cosmetics", src: "https://logo.clearbit.com/sugarcosmetics.com" },
-  { name: "WOW Skin Science", src: "https://logo.clearbit.com/buywow.in" },
-  { name: "Noise", src: "https://logo.clearbit.com/gonoise.com" },
-  { name: "The Man Company", src: "https://logo.clearbit.com/themancompany.com" },
-  { name: "Beardo", src: "https://logo.clearbit.com/beardo.in" },
-  { name: "Bombay Shaving Company", src: "https://logo.clearbit.com/bombayshavingcompany.com" },
-  { name: "Sleepy Owl", src: "https://logo.clearbit.com/sleepyowl.co" },
-  { name: "Plum", src: "https://logo.clearbit.com/plumgoodness.com" },
-  { name: "Mama & Peaches", src: "https://logo.clearbit.com/mamaandpeaches.com" },
+  { name: "boAt", src: "/logos/brands/boat.png" },
+  { name: "Mamaearth", src: "/logos/brands/mamaearth.png" },
+  { name: "Mensa Brands", src: "/logos/brands/mensa-brands.png" },
+  { name: "Lenskart", src: "/logos/brands/lenskart.png" },
+  { name: "Wakefit", src: "/logos/brands/wakefit.png" },
+  { name: "Sugar Cosmetics", src: "/logos/brands/sugar-cosmetics.png" },
+  { name: "WOW Skin Science", src: "/logos/brands/wow-skin-science.png" },
+  { name: "Noise", src: "/logos/brands/noise.png" },
+  { name: "The Man Company", src: "/logos/brands/the-man-company.png" },
+  { name: "Beardo", src: "/logos/brands/beardo.png" },
+  { name: "Bombay Shaving Company", src: "/logos/brands/bombay-shaving-company.png" },
+  { name: "Sleepy Owl", src: "/logos/brands/sleepy-owl.png" },
+  { name: "Plum", src: "/logos/brands/plum.png" },
+  { name: "Mama & Peaches", src: "/logos/brands/mama-and-peaches.png" },
 ];
 
 const buildFallback = (name: string) =>
